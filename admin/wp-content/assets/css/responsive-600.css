@@ -1,0 +1,148 @@
+@charset"utf-8";
+
+/*------------------------------------------------
+   Layout
+------------------------------------------------*/
+
+
+/*------------------------------------------------
+   head
+------------------------------------------------*/
+#head .inner{
+  margin: 0;
+}
+
+#head .leftHead p {
+  display: none;
+}
+
+#head .rightHead {
+  top: 25px;
+  right: auto;
+  width: 100%;
+}
+
+#head .rightHead .sound {
+  position: relative;
+  left: 20px;
+  top: 0;
+  width: 200px;
+}
+
+#head .rightHead .sns {
+  position: absolute;
+  right: 20px;
+  top: -3px;
+}
+
+#head .centerArea {
+  top: 40%;
+  width: 180px;
+  margin: -42px 0 0 -90px;
+}
+
+#head .centerArea .logo {
+  margin: 0 0 6px 0;
+}
+
+#head .centerArea .logo a {
+  width: 180px;
+  height: 32px;
+  background: url(../img/logo.png) no-repeat;
+  background-size:180px;
+}
+
+#head .centerArea .state {
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+#head .gnav {
+  bottom: 0;
+}
+
+#head .gnav ul {
+  border-top: #eee solid 1px;
+  border-bottom: #eee solid 1px;
+  background:rgba(255,255,255,0.8);
+}
+
+#head .gnav ul li {
+  width: 50%;
+  border-bottom: #eee solid 1px;
+  border-right: #eee solid 1px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+#head .gnav ul li:nth-last-child(1) {
+  border-bottom:none;
+}
+
+#head .gnav ul li a {
+  display: block;
+  padding: 10px;
+}
+
+#head .gnav ul li a:before {
+  display: none;
+}
+
+#head .gnav ul li a:hover:before {
+}
+
+#head .gnav ul li a.on{
+  background: rgba(0,0,0,0.1);
+}
+
+#head .gnav ul li a.on:after {
+  display: none;
+}
+
+/* Head second */
+#head.second {
+  height: 300px;
+}
+
+
+/*------------------------------------------------
+   Contents
+------------------------------------------------*/
+
+#contents .head .pageTtl {
+  font-size: 38px;
+}
+
+
+/*------------------------------------------------
+   Work Index
+------------------------------------------------*/
+#workIndex .thumb {
+  float: none;
+  width: 100%;
+}
+
+
+/*------------------------------------------------
+   Work Detail
+------------------------------------------------*/
+
+
+/*------------------------------------------------
+   About
+------------------------------------------------*/
+
+
+/*------------------------------------------------
+   Access
+------------------------------------------------*/
+
+
+/*------------------------------------------------
+   Contact
+------------------------------------------------*/
+#contact .text .addr {
+  font-size: 22px;
+}
+
