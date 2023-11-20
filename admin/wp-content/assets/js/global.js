@@ -135,9 +135,9 @@ var getParams = function(){
 }
 
 /**
- *  ブラウザ名を取得
+ *  
  *
- *  @return     ブラウザ名(ie6、ie7、ie8、ie9、ie10、ie11、chrome、safari、opera、firefox、unknown)
+ *  @return     
  *
  */
 var getBrowser = function(){
@@ -188,10 +188,10 @@ var isSmartDevice = function(){
 
 
 /**
- *  対応ブラウザかどうか判定
+ *  
  *
- *  @param  browsers    対応ブラウザ名を配列で渡す(ie6、ie7、ie8、ie9、ie10、ie11、chrome、safari、opera、firefox)
- *  @return             サポートしてるかどうかをtrue/falseで返す
+ *  @param  browsers    
+ *  @return             
  *
  */
 var isSupported = function(browsers){
